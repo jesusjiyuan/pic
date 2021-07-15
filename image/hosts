@@ -1,0 +1,74 @@
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+#0.0.0.0 account.jetbrains.com
+#127.0.0.1 jiyuan.com
+#127.0.0.1 mall.jiyuan.com
+#127.0.0.1 www.jiyuan.com
+#192.168.220.128 tomcat.jiyuan.com
+#192.168.220.128 consul.kpaas.jiyuan.com
+#192.168.220.133 dashboard.jiyuan.com
+#192.168.220.133 tomcat8.jiyuan.com
+#192.168.220.133 rabbitmq.kpaas.jiyuan.com 
+#192.168.220.133 consul.kpaas.jiyuan.com
+#192.168.220.133 mysql.kpaas.jiyuan.com
+#192.168.220.133 kplcloud.kpaas.jiyuan.com
+#192.168.220.133 kibana.kpaas.jiyuan.com
+#192.168.220.133 tracing.kpaas.jiyuan.com
+#192.168.220.133 prometheus.kpaas.jiyuan.com
+#192.168.220.133 grafana.kpaas.jiyuan.com
+#192.168.220.133 alertmanager.kpaas.jiyuan.com
+#127.0.0.1 config registry auth-service rabbitmq account-service  statistics-service  notification-service
+#192.168.220.140 notification-mongodb auth-mongodb account-mongodb statistics-mongodb
+#127.0.0.1 notification-mongodb auth-mongodb account-mongodb statistics-mongodb
+#192.168.220.140 pig-redis
+#127.0.0.1  pig-mysql  pig-gateway  pig-register  pig-auth
+# Added by Docker Desktop
+192.168.1.3 host.docker.internal
+192.168.1.3 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+140.82.121.4 github.com
+13.229.188.59 github.com
+13.229.188.59 github.com
+52.74.223.119 github.com
+52.74.223.119 github.com
+13.250.177.223 github.com
+15.164.81.167 github.com
+140.82.121.4 github.com
+140.82.113.4 github.com
+52.69.186.44 github.com
+140.82.114.3 github.com
+
+172.217.4.110 google.com
+
+
+
+
+
+
+
+
+
